@@ -1,0 +1,764 @@
+:root {
+  --ids-icon-size-lg: 32px;
+  --ids-icon-size-md: 24px;
+  --ids-icon-size-default: 24px;
+  --ids-icon-size-sm: 20px;
+  --ids-icon-size-xs: 16px;
+  --ids-icon-size-xxs: 8px;
+  --ids-icon-size-32: 32px;
+  --ids-icon-size-24: 24px;
+  --ids-icon-size-20: 20px;
+  --ids-icon-size-16: 16px;
+  --ids-icon-size-8: 8px;
+}
+
+.if.icon.ui.add-user {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/add-user.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.arrow-back-top-left {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/arrow-back-top-left.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.arrow-down {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/arrow-down.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.arrow-left {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/arrow-left.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.arrow-right {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/arrow-right.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.arrow-up {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/arrow-up.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.attach {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/attach.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.back-arrow {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/back-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.bank-card {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/bank-card.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.books {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/books.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.calculator {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/calculator.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.camera {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/camera.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.chat {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/chat.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.check-circle {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/check-circle.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.check {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/check.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.checkmark {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/checkmark.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.cheque {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/cheque.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.chevron-down {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/chevron-down.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.chevron-left {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/chevron-left.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.chevron-right {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/chevron-right.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.chevron-up {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/chevron-up.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.chevrons-left {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/chevrons-left.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.chevrons-right {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/chevrons-right.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.clock {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/clock.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.close {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/close.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.cockade {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/cockade.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.cog {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/cog.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.computer-upload {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/computer-upload.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.corner-left-round {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/corner-left-round.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.data-download {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/data-download.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.data-upload {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/data-upload.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.date {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/date.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.direct-edit {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/direct-edit.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.dislike {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/dislike.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.document-docx {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/document-docx.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.document-pdf {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/document-pdf.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.document-pptx {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/document-pptx.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.document-xlsx {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/document-xlsx.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.drop-down {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/drop-down.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.drop-left {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/drop-left.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.drop-right {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/drop-right.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.drop-up {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/drop-up.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.edit {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/edit.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.external-link {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/external-link.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.file-download {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/file-download.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.film {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/film.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.filter {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/filter.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.fingerprint {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/fingerprint.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.floppy-disk {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/floppy-disk.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.fullscreen {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/fullscreen.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.handshake {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/handshake.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.help {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/help.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.hourglass {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/hourglass.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.house {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/house.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.img {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/img.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.incomming-call {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/incomming-call.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.info {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/info.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.invert {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/invert.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.leave {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/leave.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.like {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/like.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.link {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/link.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.list {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/list.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.lock-open {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/lock-open.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.lock {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/lock.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.log-in {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/log-in.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.log-out {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/log-out.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.mail {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/mail.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.map-pin {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/map-pin.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.marker {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/marker.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.math {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/math.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.megaphone {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/megaphone.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.menu {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/menu.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.microphone-off {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/microphone-off.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.microphone {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/microphone.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.microsoft {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/microsoft.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.minus {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/minus.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.more-horizontal-filled {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/more-horizontal-filled.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.more-horizontal {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/more-horizontal.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.more-vertical {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/more-vertical.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.multiple {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/multiple.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.open-in-new {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/open-in-new.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.outgoing-call {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/outgoing-call.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.pause-filled {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/pause-filled.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.pause {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/pause.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.pencil {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/pencil.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.person {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/person.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.phone-call-end {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/phone-call-end.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.phone {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/phone.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.pin {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/pin.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.play-filled {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/play-filled.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.play {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/play.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.plus {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/plus.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.preview-off {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/preview-off.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.preview {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/preview.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.printer {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/printer.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.real-estate {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/real-estate.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.recipe {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/recipe.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.redo {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/redo.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.refresh {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/refresh.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.replace {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/replace.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.resend {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/resend.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.return {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/return.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.search {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/search.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.secure-message {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/secure-message.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.send-message {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/send-message.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.setup-preferences {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/setup-preferences.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.share {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/share.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.shop {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/shop.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.shopping-bag {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/shopping-bag.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.shopping-cart {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/shopping-cart.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.signature {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/signature.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.single-folded {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/single-folded.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.sound {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/sound.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.speech-bubble {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/speech-bubble.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.stack {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/stack.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.subtitles {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/subtitles.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.tasks {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/tasks.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.trashcan {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/trashcan.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.video-off {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/video-off.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.volume-mute {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/volume-mute.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.volume {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/volume.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.warning-light {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/warning-light.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon.ui.warning {
+  background-image: url("https://static.design.if.eu/ids-icon/ui/warning.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 16px;
+}
+.if.icon {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: var(--ids-icon-size-sm) var(--ids-icon-size-sm);
+  width: var(--ids-icon-size-sm);
+  height: var(--ids-icon-size-sm);
+}
+.if.icon.flag {
+  background-size: var(--ids-icon-size-lg) var(--ids-icon-size-md);
+  width: var(--ids-icon-size-lg);
+  height: var(--ids-icon-size-lg);
+}
