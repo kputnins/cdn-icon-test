@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      var time = new Date();
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Helpers</title>
+
+    <link async href="./scaffolding.css" rel="stylesheet" type="text/css" />
+
+    <link async href="./css-helpers.css" rel="stylesheet" type="text/css" />
+
+    <!-- Inlines external sprite sheet to solve cors issue -->
+    <!-- See Dealing with cross-domain issues -->
+    <!-- https://medium.com/@hayavuk/complete-guide-to-svg-sprites-7e202e215d34 -->
+    <script>
+      fetch(
+        "https://ifdesignsystemstorage.blob.core.windows.net/ids-icon/spritesheet-stripped.svg"
+      )
+        .then((res) => res.text())
+        .then((svgText) => {
+          let svgHider = Object.assign(document.createElement("div"), {
+            innerHTML: svgText,
+          });
+          Object.assign(svgHider.style, {
+            position: "absolute",
+            width: 0,
+            height: 0,
+            overflow: "hidden",
+            pointerEvents: "none",
+          });
+          document.body.append(svgHider);
+        });
+    </script>
+
+    <style>
+      svg {
+        width: 16px;
+        height: 16px;
+        fill: #331e11;
+        stroke: #331e11;
+      }
+    </style>
+  </head>
+  <body class="if" onload="myFunction()">
+    <div class="if app">
+      <main class="if main">
+        <div class="docs block darker">
+          <div class="if p-32">
+            <h1 class="if typography heading large">Icon sprite sheet</h1>
+          </div>
+        </div>
+
+        <div class="docs block">
+          <div class="if flex-row mt-32">
+            <div class="if pr-32 pl-32">
+              <h2>UI Icons</h2>
+              <div class="if flex-row flex-wrap gap-4">
+                <svg>
+                  <use xlink:href="#add-user"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#arrow-back-top-left"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#arrow-down"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#arrow-left"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#arrow-right"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#arrow-up"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#attach"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#back-arrow"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#bank-card"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#books"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#calculator"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#camera"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#chat"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#check-circle"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#check"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#checkmark"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#cheque"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#chevron-down"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#chevron-left"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#chevron-right"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#chevron-up"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#chevrons-left"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#chevrons-right"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#clock"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#close"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#cockade"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#cog"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#computer-upload"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#corner-left-round"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#data-download"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#data-upload"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#date"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#direct-edit"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#dislike"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#document-docx"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#document-pdf"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#document-pptx"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#document-xlsx"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#drop-down"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#drop-left"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#drop-right"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#drop-up"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#edit"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#external-link"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#file-download"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#film"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#filter"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#fingerprint"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#floppy-disk"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#fullscreen"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#handshake"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#help"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#hourglass"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#house"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#img"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#incomming-call"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#info"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#invert"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#leave"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#like"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#link"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#list"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#lock-open"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#lock"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#log-in"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#log-out"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#mail"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#map-pin"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#marker"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#math"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#megaphone"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#menu"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#microphone-off"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#microphone"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#microsoft"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#minus"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#more-horizontal-filled"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#more-horizontal"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#more-vertical"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#multiple"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#open-in-new"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#outgoing-call"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#pause-filled"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#pause"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#pencil"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#person"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#phone-call-end"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#phone"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#pin"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#play-filled"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#play"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#plus"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#preview-off"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#preview"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#printer"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#real-estate"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#recipe"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#redo"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#refresh"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#replace"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#resend"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#return"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#search"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#secure-message"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#send-message"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#setup-preferences"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#share"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#shop"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#shopping-bag"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#shopping-cart"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#signature"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#single-folded"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#sound"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#speech-bubble"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#stack"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#subtitles"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#tasks"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#trashcan"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#video-off"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#volume-mute"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#volume"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#warning-light"></use>
+                </svg>
+                <svg>
+                  <use xlink:href="#warning"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="docs block">
+          <div class="if flex-row mt-32">
+            <div class="if pr-32 pl-32">
+              <h2>Some filler text</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="docs block">
+          <div class="if mt-32">
+            <div class="if flex-column pr-32 pl-32">
+              <h2>Some filler images</h2>
+              <div class="if flex-row justify-content-center gap-16">
+                <img
+                  src="https://fakeimg.pl/342x215/E9E3DE/9D624B?text=Media&amp;font=bebas"
+                  alt="media"
+                />
+                <img
+                  src="https://fakeimg.pl/342x215/E9E3DE/9D624B?text=Media&amp;font=bebas"
+                  alt="media"
+                />
+                <img
+                  src="https://fakeimg.pl/342x215/E9E3DE/9D624B?text=Media&amp;font=bebas"
+                  alt="media"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+  <script>
+    const myFunction = () => {
+      const time2 = new Date();
+      console.log(`Time to load: ${time2 - time}ms`);
+      document.getElementsByTagName("h1")[0].innerHTML += ` - ${
+        time2 - time
+      }ms`;
+    };
+  </script>
+</html>
