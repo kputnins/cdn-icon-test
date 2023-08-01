@@ -5,11 +5,34 @@ settings:
   excludeLinksFromLockfile: false
 
 devDependencies:
+  '@ids/style-css-helpers':
+    specifier: 18.0.0-alpha.6
+    version: 18.0.0-alpha.6
+  '@ids/style-scaffolding':
+    specifier: 18.0.0-alpha.6
+    version: 18.0.0-alpha.6
   browser-sync:
     specifier: ^2.29.3
     version: 2.29.3
 
 packages:
+
+  /@ids-core/telemetry@0.2.26:
+    resolution: {integrity: sha1-LXy/4VHeAoAwR0+5CCSKjkUN/Ck=}
+    requiresBuild: true
+    dev: true
+
+  /@ids/style-css-helpers@18.0.0-alpha.6:
+    resolution: {integrity: sha1-/RFYUKNQlj7LBQpTmHV2KCmvsdY=}
+    dependencies:
+      '@ids-core/telemetry': 0.2.26
+    dev: true
+
+  /@ids/style-scaffolding@18.0.0-alpha.6:
+    resolution: {integrity: sha1-LKmIBOflYQqyejLdxDSqf2X2XCg=}
+    dependencies:
+      '@ids-core/telemetry': 0.2.26
+    dev: true
 
   /@socket.io/component-emitter@3.1.0:
     resolution: {integrity: sha512-+9jVqKhRSpsc591z5vX+X5Yyw+he/HCB4iQ/RYxw35CEPaY1gnsNE43nf9n9AaYjAQrTiI/mOwKUKdUs9vf7Xg==}

@@ -7,6 +7,8 @@
     "start": "browser-sync start -s -f src --ss src"
   },
   "devDependencies": {
+    "@ids/style-css-helpers": "18.0.0-alpha.6",
+    "@ids/style-scaffolding": "18.0.0-alpha.6",
     "browser-sync": "^2.29.3"
   },
   "keywords": [],
