@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      var time = new Date();
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Helpers</title>
+
+    <link
+      async
+      href="../style/scaffolding.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <link
+      async
+      href="../style/css-helpers.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- Link to ids-icon -->
+    <script src="../../webcomponent/index.esm.js" type="module"></script>
+    <script nomodule src="../../webcomponent/index.iife.js"></script>
+
+    <!-- Inlines external sprite sheet to solve cors issue -->
+    <!-- See Dealing with cross-domain issues -->
+    <!-- https://medium.com/@hayavuk/complete-guide-to-svg-sprites-7e202e215d34 -->
+    <script>
+      fetch(
+        "https://ifdesignsystemstorage.blob.core.windows.net/ids-icon/spritesheet-stripped.svg"
+      )
+        .then((res) => res.text())
+        .then((svgText) => {
+          let svgHider = Object.assign(document.createElement("div"), {
+            innerHTML: svgText,
+          });
+          Object.assign(svgHider.style, {
+            position: "absolute",
+            width: 0,
+            height: 0,
+            overflow: "hidden",
+            pointerEvents: "none",
+          });
+          document.body.append(svgHider);
+        });
+    </script>
+
+    <style>
+      svg {
+        width: 16px;
+        height: 16px;
+        fill: #331e11;
+        stroke: #331e11;
+      }
+    </style>
+  </head>
+  <body class="if" onload="myFunction()">
+    <div class="if app">
+      <main class="if main">
+        <div class="docs block darker">
+          <div class="if p-32">
+            <h1 class="if typography heading large">
+              Web-component with SVG sprite-sheet from CDN
+            </h1>
+          </div>
+        </div>
+
+        <div class="docs block">
+          <div class="if flex-row mt-32">
+            <div class="if pr-32 pl-32">
+              <h2>UI Icons</h2>
+              <div class="if flex-row flex-wrap gap-4">
+                <ids-icon-sheet size="size16" icon="add-user"></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="arrow-back-top-left"
+                ></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="arrow-down"
+                ></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="arrow-left"
+                ></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="arrow-right"
+                ></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="arrow-up"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="attach"></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="back-arrow"
+                ></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="bank-card"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="books"></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="calculator"
+                ></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="camera"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="chat"></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="check-circle"
+                ></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="check"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="checkmark"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="cheque"></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="chevron-down"
+                ></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="chevron-left"
+                ></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="chevron-right"
+                ></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="chevron-up"
+                ></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="chevrons-left"
+                ></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="chevrons-right"
+                ></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="clock"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="close"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="cockade"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="cog"></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="computer-upload"
+                ></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="corner-left-round"
+                ></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="data-download"
+                ></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="data-upload"
+                ></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="date"></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="direct-edit"
+                ></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="dislike"></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="document-docx"
+                ></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="document-pdf"
+                ></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="document-pptx"
+                ></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="document-xlsx"
+                ></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="drop-down"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="drop-left"></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="drop-right"
+                ></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="drop-up"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="edit"></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="external-link"
+                ></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="file-download"
+                ></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="film"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="filter"></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="fingerprint"
+                ></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="floppy-disk"
+                ></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="fullscreen"
+                ></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="handshake"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="help"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="hourglass"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="house"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="img"></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="incomming-call"
+                ></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="info"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="invert"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="leave"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="like"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="link"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="list"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="lock-open"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="lock"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="log-in"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="log-out"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="mail"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="map-pin"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="marker"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="math"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="megaphone"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="menu"></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="microphone-off"
+                ></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="microphone"
+                ></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="microsoft"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="minus"></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="more-horizontal-filled"
+                ></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="more-horizontal"
+                ></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="more-vertical"
+                ></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="multiple"></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="open-in-new"
+                ></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="outgoing-call"
+                ></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="pause-filled"
+                ></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="pause"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="pencil"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="person"></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="phone-call-end"
+                ></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="phone"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="pin"></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="play-filled"
+                ></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="play"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="plus"></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="preview-off"
+                ></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="preview"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="printer"></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="real-estate"
+                ></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="recipe"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="redo"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="refresh"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="replace"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="resend"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="return"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="search"></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="secure-message"
+                ></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="send-message"
+                ></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="setup-preferences"
+                ></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="share"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="shop"></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="shopping-bag"
+                ></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="shopping-cart"
+                ></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="signature"></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="single-folded"
+                ></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="sound"></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="speech-bubble"
+                ></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="stack"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="subtitles"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="tasks"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="trashcan"></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="video-off"></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="volume-mute"
+                ></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="volume"></ids-icon-sheet>
+                <ids-icon-sheet
+                  size="size16"
+                  icon="warning-light"
+                ></ids-icon-sheet>
+                <ids-icon-sheet size="size16" icon="warning"></ids-icon-sheet>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="docs block">
+          <div class="if flex-row mt-32">
+            <div class="if pr-32 pl-32">
+              <h2>Some filler text</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="docs block">
+          <div class="if mt-32">
+            <div class="if flex-column pr-32 pl-32">
+              <h2>Some filler images</h2>
+              <div class="if flex-row justify-content-center gap-16">
+                <img
+                  src="https://fakeimg.pl/342x215/E9E3DE/9D624B?text=Media&amp;font=bebas"
+                  alt="media"
+                />
+                <img
+                  src="https://fakeimg.pl/342x215/E9E3DE/9D624B?text=Media&amp;font=bebas"
+                  alt="media"
+                />
+                <img
+                  src="https://fakeimg.pl/342x215/E9E3DE/9D624B?text=Media&amp;font=bebas"
+                  alt="media"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+  <script>
+    const myFunction = () => {
+      const time2 = new Date();
+      console.log(`Time to load: ${time2 - time}ms`);
+      document.getElementsByTagName("h1")[0].innerHTML += ` - ${
+        time2 - time
+      }ms`;
+    };
+  </script>
+</html>

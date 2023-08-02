@@ -146,13 +146,14 @@ var IDSIcon = (function (exports) {
     }
     exports.IdsIconSheet = class IdsIconSheet extends s {
         constructor() {
-            super(...arguments);
+            super();
             this.size = exports.IconSize.Size16;
+            //this.attachShadow({ mode: 'open' });
         }
-        render() {
+        connectedCallback() {
             const classNames = [`if icon`, this.size].join(' ');
             const src = `#${this.icon}`;
-            return b `
+            this.innerHTML = `
             <svg class=${classNames}>
                 <use xlink:href=${src}></use>
             </svg>
